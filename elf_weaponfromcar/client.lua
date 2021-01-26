@@ -404,7 +404,7 @@ Citizen.CreateThread(function()
 									end
 								else
 									Wait(1)
-									drawNotification("~p~ELF ~r~"..dbtxterr.."")
+									drawNotification(""..dbtxterr.."")
 									SetCurrentPedWeapon(playerPed, -1569615261)
 								end
 							else	
@@ -422,7 +422,7 @@ Citizen.CreateThread(function()
 								else
 									if bigWeaponOut == false and GetVehiclePedIsIn(playerPed, false) == 0 then
 									Wait(1)
-									drawNotification("~p~ELF ~r~"..dbtxterr.."")
+									drawNotification(""..dbtxterr.."")
 									SetCurrentPedWeapon(playerPed, -1569615261)
 									end
 								end
@@ -430,7 +430,7 @@ Citizen.CreateThread(function()
 						else
 							if bigWeaponOut == false and GetVehiclePedIsIn(playerPed, false) == 0 then
 								Wait(1)
-								drawNotification("~p~ELF ~r~"..bwtxterr.."")
+								drawNotification(""..bwtxterr.."")
 								SetCurrentPedWeapon(playerPed, -1569615261)
 							end
 						end
